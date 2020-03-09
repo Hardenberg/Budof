@@ -1,0 +1,24 @@
+{
+  "name": "budof",
+  "version": "0.0.1",
+  "description": "Budof Monorepo",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hardenberg/Budof.git"
+  },
+  "author": "Alrik Schnapke <alrik.schnapke@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hardenberg/Budof/issues"
+  },
+  "homepage": "https://github.com/Hardenberg/Budof#readme",
+  "devDependencies": {
+  }
+}
