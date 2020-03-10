@@ -1,10 +1,12 @@
 import plusnew, { component } from '@plusnew/core';
-import style from './app.scss';
+import Test from './components/Test';
 
-export default component('App', () => {
-	return (
-		<div class={style.container}>
-			<h1>Hello Budof, my friend :)</h1>
+export default component(
+	'App',
+	() =>
+		<div>
+			<h1>Hello BudoF</h1>
+			<Test value="Please Login"/>
 		</div>
-	);
-});
+
+)
