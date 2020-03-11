@@ -1,0 +1,43 @@
+{
+  "name": "budof-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "webpack-dev-server --env.mode=development",
+    "build": "webpack --env.mode=production",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "plusnew"
+  ],
+  "author": "",
+  "dependencies": {
+    "@plusnew/core": "^1.0.0-beta.5",
+    "@plusnew/driver-dom": "^1.0.0-beta.4",
+    "@plusnew/router": "latest"
+  },
+  "devDependencies": {
+    "@plusnew/enzyme-adapter": "^1.0.0-beta.2",
+    "@plusnew/simulate-dom-events": "^0.1.5",
+    "@types/jasmine": "^3.5.8",
+    "awesome-typescript-loader": "^5.2.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "enzyme": "^3.11.0",
+    "file-loader": "^5.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.1.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "script-ext-html-webpack-plugin": "^2.1.4",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}

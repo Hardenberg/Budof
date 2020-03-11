@@ -1,0 +1,26 @@
+{
+  "name": "budof-cli",
+  "version": "1.0.0",
+  "description": "A CLI to bootstrap a new budof-instance",
+  "main": "src/cli.js",
+  "bin": {
+    "create-project": "bin/create-budof.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "author": "Alrik Schnapke <alrik.schnapke@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "esm": "^3.2.25",
+    "inquirer": "^7.1.0"
+  }
+}
